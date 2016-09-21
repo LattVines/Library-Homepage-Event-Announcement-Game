@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 8b06d29577ffae04f8e30e0f82477685
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: archer_0
+    21300002: archer_1
+    21300004: archer_2
+    21300006: archer_3
+    21300008: archer_4
+    21300010: archer_5
+    21300012: archer_6
+    21300014: archer_7
+    21300016: archer_8
+    21300018: archer_9
+    21300020: archer_10
+    21300022: archer_11
+    21300024: archer_12
+    21300026: archer_13
+    21300028: archer_14
+    21300030: archer_15
+    21300032: archer_16
+    21300034: archer_17
+    21300036: archer_18
+    21300038: archer_19
+    21300040: archer_20
+    21300042: archer_21
+    21300044: archer_22
+    21300046: archer_23
+    21300048: archer_24
+    21300050: archer_25
+    21300052: archer_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: archer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562525451, y: .409445763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .547433019, y: .405133724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .560369253, y: .407289505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .558213234, y: .402977467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562525272, y: .405133724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .561318874, y: .405054569}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562308192, y: .406537294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .564385176, y: .40446043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .564385176, y: .40446043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .558154345, y: .406537294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .564384937, y: .406537294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562308311, y: .406537294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562184334, y: .404132366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562184334, y: .406723499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562184334, y: .417087555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562184334, y: .404132366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .562184334, y: .404132366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .560675144, y: .402082205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .560711384, y: .404885411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .560711384, y: .404885411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .560711384, y: .404885411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .560711384, y: .404885411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .561376095, y: .406017423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .561925888, y: .406112194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .561735392, y: .407396734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .558929205, y: .410202891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: archer_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: .561735392, y: .387753636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
