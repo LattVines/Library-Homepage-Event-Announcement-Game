@@ -4,13 +4,37 @@ using System.Collections;
 public class GameController : MonoBehaviour {
 
     Player player;
+    Words words;
     bool is_charging = false;
+
+    static GameController instance = null;
 
 	void Awake()
     {
+        if(instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+
+
         player = FindObjectOfType<Player>();
+        words = FindObjectOfType<Words>();
     }
 
+    public static GameController GetInstance()
+    {
+        return instance;
+    }
+
+
+    public void AddWord()
+    {
+        words.AddWord();
+    }
 
     void Update()
     {

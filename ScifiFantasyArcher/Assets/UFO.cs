@@ -12,8 +12,17 @@ public class UFO : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Arrow")
         { 
-                audio.PlayOneShot(sfx_clinks[Random.Range(0, sfx_clinks.Length)]);
-                destroyable = true;
+            audio.PlayOneShot(sfx_clinks[Random.Range(0, sfx_clinks.Length)]);
+
+            if (!destroyable)
+            {
+                //before setting destroyable allow the
+                //word to be added. This prevents
+                //adding more than one word from a multi-collision with a 
+                //ufo and arrow. It happened sometimes
+                GameController.GetInstance().AddWord();
+            }
+            destroyable = true;
         }
     }
 
