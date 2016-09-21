@@ -1,5 +1,13 @@
-A simple game meant to be used as a announcement on a website.
+A simple game meant to be used as a announcement on a library website for
+a scifi and fantasy convention.
 
+
+Feel free to adapt it for use for other such things.
+
+
+
+
+*** Credits ****
 Code and Game desgin by: 
 The Tartle Wizard
 https://www.patreon.com/tartle_games
