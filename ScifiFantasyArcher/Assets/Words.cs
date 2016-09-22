@@ -1,18 +1,19 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Words : MonoBehaviour {
 
 
-    public GameObject[] words;//set in editor
+    public Text[] words;//set in editor
 
     int word_counter = 0;
 
     void Awake()
     {
-        foreach(GameObject obj in words)
+        foreach(Text obj in words)
         {
-            obj.SetActive(false);
+            obj.gameObject.SetActive(false);
         }
     }
 
@@ -21,7 +22,7 @@ public class Words : MonoBehaviour {
     {
         if(word_counter < words.Length)
         {
-            words[word_counter].SetActive(true);
+            words[word_counter].gameObject.SetActive(true);
             word_counter++;
         }
     }
