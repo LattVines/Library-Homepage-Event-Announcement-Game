@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class GameController : MonoBehaviour {
@@ -6,20 +7,18 @@ public class GameController : MonoBehaviour {
     Player player;
     Words words;
     bool is_charging = false;
+    public bool game_is_running = false;
+
+    public Text score_text;//set in editor
+    int score = 0;
+    public GameObject reloaderbutton;//set in editor
 
     static GameController instance = null;
 
 	void Awake()
     {
-        if(instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-
+        
+        instance = this;
 
         player = FindObjectOfType<Player>();
         words = FindObjectOfType<Words>();
@@ -31,14 +30,33 @@ public class GameController : MonoBehaviour {
     }
 
 
+
+    public void StartGamebutton()
+    {
+        player.BeginPlay();
+        game_is_running = true;
+    }
+
+    public void ReloadButton()
+    {
+        Application.LoadLevel(Application.loadedLevel);
+    }
+
     public void AddWord()
     {
+        score++;
+        score_text.text = "score " + score.ToString();
+        if(score >= 3)
+        {
+            reloaderbutton.SetActive(true);
+        }
         words.AddWord();
     }
 
     void Update()
     {
-        GetMouseClicks();
+        if(game_is_running)
+            GetMouseClicks();
     }
 
     void GetMouseClicks()

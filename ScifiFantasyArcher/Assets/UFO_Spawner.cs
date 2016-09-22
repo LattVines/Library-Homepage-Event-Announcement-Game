@@ -13,7 +13,7 @@ public class UFO_Spawner : MonoBehaviour {
 
     void Start()
     {
-        SpawnUFO();
+        //SpawnUFO();
         StartCoroutine(ufo_spawner_routine());
 
     }
@@ -23,7 +23,7 @@ public class UFO_Spawner : MonoBehaviour {
     {
         while (true)
         {
-            if(spawned_ufo == null) SpawnUFO();
+            if(spawned_ufo == null && GameController.GetInstance().game_is_running) SpawnUFO();
             yield return new WaitForSeconds(Random.RandomRange(1f, 5f));
            
         }

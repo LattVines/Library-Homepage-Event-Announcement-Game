@@ -9,10 +9,19 @@ public class Player : MonoBehaviour {
     Animator anim;
     public AnimationClip shoot_clip_for_time;
 
+
+
     void Awake()
     {
         anim = GetComponentInChildren<Animator>();
     }
+
+
+    public void BeginPlay()
+    {
+        anim.SetTrigger("start");
+    }
+
 
     public float scaler = 10f;
 
