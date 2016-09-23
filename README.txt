@@ -8,7 +8,7 @@ Feel free to adapt it for use for other such things.
 
 
 *** Credits ****
-Code and Game desgin by: 
+Code and Game design by: 
 The Tartle Wizard
 https://www.patreon.com/tartle_games
 
