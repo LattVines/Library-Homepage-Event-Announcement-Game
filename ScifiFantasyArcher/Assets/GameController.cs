@@ -12,6 +12,8 @@ public class GameController : MonoBehaviour {
     public Text score_text;//set in editor
     int score = 0;
     public GameObject reloaderbutton;//set in editor
+    public GameObject titleScreen;//set in editor
+    public GameObject facebookButton;//set in editor
 
     static GameController instance = null;
 
@@ -34,12 +36,19 @@ public class GameController : MonoBehaviour {
     public void StartGamebutton()
     {
         player.BeginPlay();
+        Destroy(titleScreen);
         game_is_running = true;
     }
 
     public void ReloadButton()
     {
         Application.LoadLevel(Application.loadedLevel);
+    }
+
+
+    public void FaceBookLinkButton()
+    {
+        Application.OpenURL("https://www.facebook.com/hplscifi/");
     }
 
     public void AddWord()
@@ -49,6 +58,7 @@ public class GameController : MonoBehaviour {
         if(score >= 3)
         {
             reloaderbutton.SetActive(true);
+            facebookButton.SetActive(true);
         }
         words.AddWord();
     }
