@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: a63dd3d11b6af4741b62e3d80407d556
+guid: 282b59658061bc64da16b2e336f33ffa
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Game-Title-Screen1_0
-    21300002: Game-Title-Screen1_1
+    21300000: Game-Title-Screen-update-01_0
+    21300002: Game-Title-Screen-update-01_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,7 +26,7 @@ TextureImporter:
   textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
-    filterMode: 0
+    filterMode: -1
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -45,23 +45,23 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Game-Title-Screen1_0
+    - name: Game-Title-Screen-update-01_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 141
+        x: 117
+        y: 150
         width: 382
         height: 115
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Game-Title-Screen1_1
+    - name: Game-Title-Screen-update-01_1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 608
-        height: 103
+        width: 615
+        height: 112
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

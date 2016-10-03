@@ -48,7 +48,9 @@ public class GameController : MonoBehaviour {
 
     public void FaceBookLinkButton()
     {
-        Application.OpenURL("https://www.facebook.com/hplscifi/");
+        //Application.OpenURL("https://www.facebook.com/hplscifi/");
+        Application.ExternalEval("window.open('https://www.facebook.com/hplscifi/', '_blank')");
+
     }
 
     public void AddWord()
