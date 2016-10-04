@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour {
     public GameObject reloaderbutton;//set in editor
     public GameObject titleScreen;//set in editor
     public GameObject facebookButton;//set in editor
+    public GameObject githubButton;//set in editor
 
     static GameController instance = null;
 
@@ -48,8 +49,33 @@ public class GameController : MonoBehaviour {
 
     public void FaceBookLinkButton()
     {
-        //Application.OpenURL("https://www.facebook.com/hplscifi/");
-        Application.ExternalEval("window.open('https://www.facebook.com/hplscifi/', '_blank')");
+
+        if (Application.platform == RuntimePlatform.OSXWebPlayer )
+        {
+            //on safari, the call to open a new tab will not work
+            Application.OpenURL("https://www.facebook.com/hplscifi/");
+        }
+        else
+        {
+
+            Application.ExternalEval("window.open('https://www.facebook.com/hplscifi/', '_blank')");
+        }
+
+    }
+
+    public void GitHubButtonAction()
+    {
+
+        if (Application.platform == RuntimePlatform.OSXWebPlayer)
+        {
+            //on safari, the call to open a new tab will not work
+            Application.OpenURL("https://github.com/LattVines/Library-Homepage-Event-Announcement-Game");
+        }
+        else
+        {
+
+            Application.ExternalEval("window.open('https://github.com/LattVines/Library-Homepage-Event-Announcement-Game', '_blank')");
+        }
 
     }
 
@@ -61,6 +87,7 @@ public class GameController : MonoBehaviour {
         {
             reloaderbutton.SetActive(true);
             facebookButton.SetActive(true);
+            githubButton.SetActive(true);
         }
         words.AddWord();
     }
